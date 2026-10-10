@@ -1,0 +1,33 @@
+name: Pobieraj i analizuj podcasty
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Uruchamia sie co 6 godzin
+  workflow_dispatch:        # Umozliwia reczne uruchomienie jednym kliknieciem
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Pobierz kod
+        uses: actions/checkout@v4
+
+      - name: Ustaw Pythona
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Uruchom skrypt
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scraper.py
+
+      - name: Zapisz zmiany w repozytorium
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add baza_odcinkow.json
+          git commit -m "Aktualizacja bazy odcinkow [skip ci]" || exit 0
+          git push
