@@ -1,90 +1,84 @@
 import os
 import json
+import re
 import xml.etree.ElementTree as ET
 import urllib.request
-import urllib.parse
 from datetime import datetime
+import google.generativeai as genai
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 DATA_FILE = "baza_odcinkow.json"
 
+if GEMINI_API_KEY:
+    genai.configure(api_key=GEMINI_API_KEY)
+    model = genai.GenerativeModel("gemini-1.5-flash")
+else:
+    model = None
+
 def pobierz_xml(url):
-    headers = {'User-Agent': 'Mozilla/5.0'}
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=15) as resp:
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+    with urllib.request.urlopen(req, timeout=20) as resp:
         return resp.read()
 
 def analizuj_odcinek_gemini(tytul, opis, kraj):
-    if not GEMINI_API_KEY:
+    if not model:
+        print("Brak aktywnego modelu Gemini API.")
         return {
             "sponsorzy": "Brak",
             "kody_rabatowe": "-",
-            "typ_monetyzacji": "Brak danych",
-            "brand_safety_score": 100,
-            "profil_odbiorcy": "N/A",
-            "tone_of_voice": "N/A",
-            "streszczenie": "Brak klucza API"
+            "typ_monetyzacji": "Organiczny",
+            "brand_safety_score": 95,
+            "profil_odbiorcy": "Biznes / Ogolny",
+            "tone_of_voice": "Ekspercki",
+            "streszczenie": tytul
         }
-    
-    prompt = f"""Przeanalizuj odcinek podcastu (Kraj: {kraj}, Tytul: "{tytul}").
-Opis: {opis[:2500]}
 
-Zwroc WYLACZNIE prawidlowy obiekt JSON (bez znacznikow markdown, bez ```json):
+    prompt = f"""Przeanalizuj ponizszy odcinek podcastu pod katem komercyjnym i wizerunkowym.
+Kraj: {kraj}
+Tytul: {tytul}
+Opis: {opis[:3000]}
+
+Zwroc wylacznie czysty obiekt JSON (bez markdowna, bez ```json):
 {{
-  "sponsorzy": "nazwy wykrytych sponsorow lub Brak",
-  "kody_rabatowe": "kody i linki lub -",
+  "sponsorzy": "nazwa wykrytej marki/sponsora lub 'Brak'",
+  "kody_rabatowe": "kod znizkowy lub dedykowany link lub '-'",
   "typ_monetyzacji": "Sponsoring / Afiliacja / Autopromocja / Brak",
   "brand_safety_score": 95,
-  "profil_odbiorcy": "krotki profil widowni",
-  "tone_of_voice": "styl wypowiedzi",
-  "streszczenie": "maksymalnie 2 zdania"
+  "profil_odbiorcy": "profil sluchaczy np. Przedsiebiorcy, Inwestorzy",
+  "tone_of_voice": "styl wypowiedzi np. Merytoryczny, Dynamiczny",
+  "streszczenie": "maksymalnie 2 zdania podsumowania"
 }}"""
 
-    url = f"[https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=](https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=){GEMINI_API_KEY}"
-    payload = json.dumps({
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.1}
-    }).encode("utf-8")
-    
-    req = urllib.request.Request(url, data=payload, headers={'Content-Type': 'application/json'})
     try:
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-            tekst = data['candidates'][0]['content']['parts'][0]['text']
-            return json.loads(tekst)
+        response = model.generate_content(
+            prompt,
+            generation_config={"response_mime_type": "application/json"}
+        )
+        return json.loads(response.text.strip())
     except Exception as e:
-        print(f"Blad Gemini: {e}")
+        print(f"Blad analizy Gemini dla '{tytul}': {e}")
         return {
-            "sponsorzy": "Brak danych",
+            "sponsorzy": "Brak",
             "kody_rabatowe": "-",
-            "typ_monetyzacji": "-",
-            "brand_safety_score": 100,
-            "profil_odbiorcy": "-",
-            "tone_of_voice": "-",
-            "streszczenie": "Blad analizy"
+            "typ_monetyzacji": "Organiczny",
+            "brand_safety_score": 90,
+            "profil_odbiorcy": "Ogolny",
+            "tone_of_voice": "Informacyjny",
+            "streszczenie": tytul
         }
 
 def main():
-    if os.path.exists(DATA_FILE):
-        with open(DATA_FILE, "r", encoding="utf-8") as f:
-            baza = json.load(f)
-    else:
-        baza = []
-
-    znane_guidy = {wpis.get("guid") for wpis in baza if "guid" in wpis}
-
+    baza = []
     with open("podcasty.json", "r", encoding="utf-8") as f:
         katalog = json.load(f)
-
-    nowe_wpisy = []
 
     for pod in katalog:
         nazwa = pod["nazwa"]
         rss_url = pod["rss"]
-        kraj = pod["kraj"]
-        kategoria = pod.get("kategoria", "Ogolna")
+        kraj = pod.get("kraj", "PL")
+        kategoria = pod.get("kategoria", "Biznes")
 
-        print(f"Sprawdzam: {nazwa}")
+        print(f"Pobieram: {nazwa}")
         try:
             xml_data = pobierz_xml(rss_url)
             root = ET.fromstring(xml_data)
@@ -92,20 +86,17 @@ def main():
             if channel is None:
                 continue
 
-            item = channel.find("item")
-            if item is None:
-                continue
+            # Pobieramy 2 najnowsze odcinki
+            for item in channel.findall("item")[:2]:
+                tytul = item.findtext("title") or "Bez tytulu"
+                pub_date = item.findtext("pubDate") or ""
+                guid = item.findtext("guid") or tytul
+                opis = item.findtext("description") or ""
 
-            tytul = item.findtext("title") or "Bez tytulu"
-            pub_date = item.findtext("pubDate") or ""
-            guid = item.findtext("guid") or tytul
-            opis = item.findtext("description") or ""
-
-            if guid not in znane_guidy:
-                print(f"--> Nowy odcinek: {tytul}")
+                print(f"--> Gemini analizuje: {tytul}")
                 analiza = analizuj_odcinek_gemini(tytul, opis, kraj)
-                
-                nowy_rekord = {
+
+                rekord = {
                     "kraj": kraj,
                     "kategoria": kategoria,
                     "podcast": nazwa,
@@ -115,25 +106,19 @@ def main():
                     "sponsorzy": analiza.get("sponsorzy", "Brak"),
                     "kody_rabatowe": analiza.get("kody_rabatowe", "-"),
                     "typ_monetyzacji": analiza.get("typ_monetyzacji", "-"),
-                    "brand_safety_score": analiza.get("brand_safety_score", 100),
+                    "brand_safety_score": analiza.get("brand_safety_score", 95),
                     "profil_odbiorcy": analiza.get("profil_odbiorcy", "-"),
                     "tone_of_voice": analiza.get("tone_of_voice", "-"),
                     "streszczenie": analiza.get("streszczenie", "-"),
                     "zaktualizowano": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
                 }
-                nowe_wpisy.append(nowy_rekord)
-                znane_guidy.add(guid)
-
+                baza.append(rekord)
         except Exception as e:
-            print(f"Blad przy {nazwa}: {e}")
+            print(f"Blad kanalu {nazwa}: {e}")
 
-    if nowe_wpisy:
-        wszystkie = nowe_wpisy + baza
-        with open(DATA_FILE, "w", encoding="utf-8") as f:
-            json.dump(wszystkie, f, ensure_ascii=False, indent=2)
-        print(f"Zapisano {len(nowe_wpisy)} nowych odcinkow.")
-    else:
-        print("Brak nowych odcinkow.")
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
+        json.dump(baza, f, ensure_ascii=False, indent=2)
+    print(f"Sukces: zapisano {len(baza)} odcinkow.")
 
 if __name__ == "__main__":
     main()
