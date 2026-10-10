@@ -1,0 +1,26 @@
+[
+  {
+    "kraj": "PL",
+    "nazwa": "Mala Wielka Firma",
+    "kategoria": "Biznes",
+    "rss": "https://malawielkafirma.pl/feed/podcast/"
+  },
+  {
+    "kraj": "PL",
+    "nazwa": "Zaprojektuj Swoje Zycie",
+    "kategoria": "Biznes / Wywiady",
+    "rss": "https://feeds.megaphone.fm/zaprojektujswojezycie"
+  },
+  {
+    "kraj": "PL",
+    "nazwa": "Finanse Bardzo Osobiste",
+    "kategoria": "Finanse",
+    "rss": "https://feeds.libsyn.com/60678/rss"
+  },
+  {
+    "kraj": "DE",
+    "nazwa": "OMR Podcast",
+    "kategoria": "Marketing",
+    "rss": "https://omr.podigee.io/feed/mp3"
+  }
+]
