@@ -13,7 +13,7 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 340: System jest ustawiony tak, żebyś nigdy nie miał pieniędzy. Jak się z tego wyrwać?",
-    "zaktualizowano": "2026-10-11 00:32:04"
+    "zaktualizowano": "2026-10-11 06:28:45"
   },
   {
     "kraj": "PL",
@@ -29,7 +29,23 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 339: 10 etapów drogi do wolności finansowej",
-    "zaktualizowano": "2026-10-11 00:41:58"
+    "zaktualizowano": "2026-10-11 06:38:43"
+  },
+  {
+    "kraj": "DE",
+    "kategoria": "Marketing",
+    "podcast": "OMR Podcast",
+    "tytul": "Haben Business-Hemden eine Zukunft, Frank Seidensticker? (#948)",
+    "data": "Sun, 11 Oct 2026 01:00:00 +0000",
+    "guid": "56b6d73c028a4aba471a40060cd91da0",
+    "sponsorzy": "Brak",
+    "kody_rabatowe": "-",
+    "typ_monetyzacji": "Organiczny",
+    "brand_safety_score": 90,
+    "profil_odbiorcy": "Ogolny",
+    "tone_of_voice": "Informacyjny",
+    "streszczenie": "Haben Business-Hemden eine Zukunft, Frank Seidensticker? (#948)",
+    "zaktualizowano": "2026-10-11 06:48:45"
   },
   {
     "kraj": "DE",
@@ -45,22 +61,6 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "Er baut ein deutsches Roboter-Unicorn: RobCo-Gründer Roman Hölzl (#947)",
-    "zaktualizowano": "2026-10-11 00:51:56"
-  },
-  {
-    "kraj": "DE",
-    "kategoria": "Marketing",
-    "podcast": "OMR Podcast",
-    "tytul": "Fitnessgeräte für Denzel Washington und Co.: Gym80-CEO Simal Yilmaz (#946)",
-    "data": "Sun, 04 Oct 2026 01:00:00 +0000",
-    "guid": "c7e8eb7ccc529667a52725e8fd594894",
-    "sponsorzy": "Brak",
-    "kody_rabatowe": "-",
-    "typ_monetyzacji": "Organiczny",
-    "brand_safety_score": 90,
-    "profil_odbiorcy": "Ogolny",
-    "tone_of_voice": "Informacyjny",
-    "streszczenie": "Fitnessgeräte für Denzel Washington und Co.: Gym80-CEO Simal Yilmaz (#946)",
-    "zaktualizowano": "2026-10-11 01:01:54"
+    "zaktualizowano": "2026-10-11 06:58:39"
   }
 ]
