@@ -13,7 +13,7 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 340: System jest ustawiony tak, żebyś nigdy nie miał pieniędzy. Jak się z tego wyrwać?",
-    "zaktualizowano": "2026-10-14 00:41:19"
+    "zaktualizowano": "2026-10-14 06:41:58"
   },
   {
     "kraj": "PL",
@@ -29,7 +29,23 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 339: 10 etapów drogi do wolności finansowej",
-    "zaktualizowano": "2026-10-14 00:51:16"
+    "zaktualizowano": "2026-10-14 06:51:58"
+  },
+  {
+    "kraj": "DE",
+    "kategoria": "Marketing",
+    "podcast": "OMR Podcast",
+    "tytul": "Ihr Essay kennt sogar der Kanzler: Langdock-CEO Judith Dada (#949)",
+    "data": "Wed, 14 Oct 2026 01:00:00 +0000",
+    "guid": "a714e8890456ef2f7b28c38d96b753a3",
+    "sponsorzy": "Brak",
+    "kody_rabatowe": "-",
+    "typ_monetyzacji": "Organiczny",
+    "brand_safety_score": 90,
+    "profil_odbiorcy": "Ogolny",
+    "tone_of_voice": "Informacyjny",
+    "streszczenie": "Ihr Essay kennt sogar der Kanzler: Langdock-CEO Judith Dada (#949)",
+    "zaktualizowano": "2026-10-14 07:02:00"
   },
   {
     "kraj": "DE",
@@ -45,22 +61,6 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "Haben Business-Hemden eine Zukunft, Frank Seidensticker? (#948)",
-    "zaktualizowano": "2026-10-14 01:01:17"
-  },
-  {
-    "kraj": "DE",
-    "kategoria": "Marketing",
-    "podcast": "OMR Podcast",
-    "tytul": "Er baut ein deutsches Roboter-Unicorn: RobCo-Gründer Roman Hölzl (#947)",
-    "data": "Wed, 07 Oct 2026 01:00:00 +0000",
-    "guid": "4b35134156c52ef6da08c39e55a3f56f",
-    "sponsorzy": "Brak",
-    "kody_rabatowe": "-",
-    "typ_monetyzacji": "Organiczny",
-    "brand_safety_score": 90,
-    "profil_odbiorcy": "Ogolny",
-    "tone_of_voice": "Informacyjny",
-    "streszczenie": "Er baut ein deutsches Roboter-Unicorn: RobCo-Gründer Roman Hölzl (#947)",
-    "zaktualizowano": "2026-10-14 01:11:09"
+    "zaktualizowano": "2026-10-14 07:11:58"
   }
 ]
