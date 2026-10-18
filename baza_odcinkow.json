@@ -13,7 +13,7 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 341: WIBOR znika z ofert. Kredyt na POLSTR czy ostatnia szansa na WIBOR?",
-    "zaktualizowano": "2026-10-18 00:39:32"
+    "zaktualizowano": "2026-10-18 06:36:38"
   },
   {
     "kraj": "PL",
@@ -29,7 +29,23 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 340: System jest ustawiony tak, żebyś nigdy nie miał pieniędzy. Jak się z tego wyrwać?",
-    "zaktualizowano": "2026-10-18 00:49:32"
+    "zaktualizowano": "2026-10-18 06:46:37"
+  },
+  {
+    "kraj": "DE",
+    "kategoria": "Marketing",
+    "podcast": "OMR Podcast",
+    "tytul": "Eine Milliarde Euro Umsatz - sieben Jahre nach dem Abi: Freecash-Gründer Moritz Holländer (#950)",
+    "data": "Sun, 18 Oct 2026 01:00:00 +0000",
+    "guid": "df5e67ef5aaa3eb27e7c773632137356",
+    "sponsorzy": "Brak",
+    "kody_rabatowe": "-",
+    "typ_monetyzacji": "Organiczny",
+    "brand_safety_score": 90,
+    "profil_odbiorcy": "Ogolny",
+    "tone_of_voice": "Informacyjny",
+    "streszczenie": "Eine Milliarde Euro Umsatz - sieben Jahre nach dem Abi: Freecash-Gründer Moritz Holländer (#950)",
+    "zaktualizowano": "2026-10-18 06:56:35"
   },
   {
     "kraj": "DE",
@@ -45,22 +61,6 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "Ihr Essay kennt sogar der Kanzler: Langdock-CEO Judith Dada (#949)",
-    "zaktualizowano": "2026-10-18 00:59:30"
-  },
-  {
-    "kraj": "DE",
-    "kategoria": "Marketing",
-    "podcast": "OMR Podcast",
-    "tytul": "Haben Business-Hemden eine Zukunft, Frank Seidensticker? (#948)",
-    "data": "Sun, 11 Oct 2026 01:00:00 +0000",
-    "guid": "56b6d73c028a4aba471a40060cd91da0",
-    "sponsorzy": "Brak",
-    "kody_rabatowe": "-",
-    "typ_monetyzacji": "Organiczny",
-    "brand_safety_score": 90,
-    "profil_odbiorcy": "Ogolny",
-    "tone_of_voice": "Informacyjny",
-    "streszczenie": "Haben Business-Hemden eine Zukunft, Frank Seidensticker? (#948)",
-    "zaktualizowano": "2026-10-18 01:09:28"
+    "zaktualizowano": "2026-10-18 07:06:32"
   }
 ]
