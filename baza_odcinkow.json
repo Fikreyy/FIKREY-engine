@@ -13,7 +13,7 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 341: WIBOR znika z ofert. Kredyt na POLSTR czy ostatnia szansa na WIBOR?",
-    "zaktualizowano": "2026-10-21 00:41:11"
+    "zaktualizowano": "2026-10-21 06:42:27"
   },
   {
     "kraj": "PL",
@@ -29,7 +29,23 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 340: System jest ustawiony tak, żebyś nigdy nie miał pieniędzy. Jak się z tego wyrwać?",
-    "zaktualizowano": "2026-10-21 00:51:11"
+    "zaktualizowano": "2026-10-21 06:52:22"
+  },
+  {
+    "kraj": "DE",
+    "kategoria": "Marketing",
+    "podcast": "OMR Podcast",
+    "tytul": "Er macht NBA-Stars fit – hier sind seine Tipps: Arne Greskowiak (#951)",
+    "data": "Wed, 21 Oct 2026 01:00:00 +0000",
+    "guid": "e1eb6993c05409f2ab8865423e0f5003",
+    "sponsorzy": "Brak",
+    "kody_rabatowe": "-",
+    "typ_monetyzacji": "Organiczny",
+    "brand_safety_score": 90,
+    "profil_odbiorcy": "Ogolny",
+    "tone_of_voice": "Informacyjny",
+    "streszczenie": "Er macht NBA-Stars fit – hier sind seine Tipps: Arne Greskowiak (#951)",
+    "zaktualizowano": "2026-10-21 07:02:21"
   },
   {
     "kraj": "DE",
@@ -45,22 +61,6 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "Eine Milliarde Euro Umsatz - sieben Jahre nach dem Abi? Freecash-Gründer Moritz Holländer (#950)",
-    "zaktualizowano": "2026-10-21 01:01:04"
-  },
-  {
-    "kraj": "DE",
-    "kategoria": "Marketing",
-    "podcast": "OMR Podcast",
-    "tytul": "Ihr Essay kennt sogar der Kanzler: Langdock-CEO Judith Dada (#949)",
-    "data": "Wed, 14 Oct 2026 01:00:00 +0000",
-    "guid": "a714e8890456ef2f7b28c38d96b753a3",
-    "sponsorzy": "Brak",
-    "kody_rabatowe": "-",
-    "typ_monetyzacji": "Organiczny",
-    "brand_safety_score": 90,
-    "profil_odbiorcy": "Ogolny",
-    "tone_of_voice": "Informacyjny",
-    "streszczenie": "Ihr Essay kennt sogar der Kanzler: Langdock-CEO Judith Dada (#949)",
-    "zaktualizowano": "2026-10-21 01:11:02"
+    "zaktualizowano": "2026-10-21 07:12:21"
   }
 ]
