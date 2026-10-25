@@ -13,7 +13,7 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 342: Nie wiesz, w co inwestować pod koniec 2026? Sprawdź TO!",
-    "zaktualizowano": "2026-10-25 00:36:31"
+    "zaktualizowano": "2026-10-25 06:38:54"
   },
   {
     "kraj": "PL",
@@ -29,7 +29,23 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 341: WIBOR znika z ofert. Kredyt na POLSTR czy ostatnia szansa na WIBOR?",
-    "zaktualizowano": "2026-10-25 00:46:30"
+    "zaktualizowano": "2026-10-25 06:48:49"
+  },
+  {
+    "kraj": "DE",
+    "kategoria": "Marketing",
+    "podcast": "OMR Podcast",
+    "tytul": "Schlecker abgewickelt, an Galeria gescheitert? Insolvenzverwalter Arndt Geiwitz (#952)",
+    "data": "Sun, 25 Oct 2026 02:00:00 +0000",
+    "guid": "f128bb06f1023b1c1db03f8a61389e70",
+    "sponsorzy": "Brak",
+    "kody_rabatowe": "-",
+    "typ_monetyzacji": "Organiczny",
+    "brand_safety_score": 90,
+    "profil_odbiorcy": "Ogolny",
+    "tone_of_voice": "Informacyjny",
+    "streszczenie": "Schlecker abgewickelt, an Galeria gescheitert? Insolvenzverwalter Arndt Geiwitz (#952)",
+    "zaktualizowano": "2026-10-25 06:58:48"
   },
   {
     "kraj": "DE",
@@ -45,22 +61,6 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "Er macht NBA-Stars fit – hier sind seine Tipps: Arne Greskowiak (#951)",
-    "zaktualizowano": "2026-10-25 00:56:23"
-  },
-  {
-    "kraj": "DE",
-    "kategoria": "Marketing",
-    "podcast": "OMR Podcast",
-    "tytul": "Eine Milliarde Euro Umsatz - sieben Jahre nach dem Abi? Freecash-Gründer Moritz Holländer (#950)",
-    "data": "Sun, 18 Oct 2026 01:00:00 +0000",
-    "guid": "df5e67ef5aaa3eb27e7c773632137356",
-    "sponsorzy": "Brak",
-    "kody_rabatowe": "-",
-    "typ_monetyzacji": "Organiczny",
-    "brand_safety_score": 90,
-    "profil_odbiorcy": "Ogolny",
-    "tone_of_voice": "Informacyjny",
-    "streszczenie": "Eine Milliarde Euro Umsatz - sieben Jahre nach dem Abi? Freecash-Gründer Moritz Holländer (#950)",
-    "zaktualizowano": "2026-10-25 01:06:20"
+    "zaktualizowano": "2026-10-25 07:08:46"
   }
 ]
