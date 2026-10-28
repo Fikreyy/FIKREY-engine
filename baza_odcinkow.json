@@ -13,7 +13,7 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 342: Nie wiesz, w co inwestować pod koniec 2026? Sprawdź TO!",
-    "zaktualizowano": "2026-10-28 00:51:06"
+    "zaktualizowano": "2026-10-28 06:50:57"
   },
   {
     "kraj": "PL",
@@ -29,7 +29,23 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 341: WIBOR znika z ofert. Kredyt na POLSTR czy ostatnia szansa na WIBOR?",
-    "zaktualizowano": "2026-10-28 01:01:04"
+    "zaktualizowano": "2026-10-28 07:00:52"
+  },
+  {
+    "kraj": "DE",
+    "kategoria": "Marketing",
+    "podcast": "OMR Podcast",
+    "tytul": "Der deutsche Arnold Schwarzenegger: Bodybuilder Urs Kalecinski (#953)",
+    "data": "Wed, 28 Oct 2026 02:00:00 +0000",
+    "guid": "9cf5ff998b3c4735da8df2a0b7768258",
+    "sponsorzy": "Brak",
+    "kody_rabatowe": "-",
+    "typ_monetyzacji": "Organiczny",
+    "brand_safety_score": 90,
+    "profil_odbiorcy": "Ogolny",
+    "tone_of_voice": "Informacyjny",
+    "streszczenie": "Der deutsche Arnold Schwarzenegger: Bodybuilder Urs Kalecinski (#953)",
+    "zaktualizowano": "2026-10-28 07:10:48"
   },
   {
     "kraj": "DE",
@@ -45,22 +61,6 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "Schlecker abgewickelt, an Galeria gescheitert? Insolvenzverwalter Arndt Geiwitz (#952)",
-    "zaktualizowano": "2026-10-28 01:11:03"
-  },
-  {
-    "kraj": "DE",
-    "kategoria": "Marketing",
-    "podcast": "OMR Podcast",
-    "tytul": "Er macht NBA-Stars fit – hier sind seine Tipps: Arne Greskowiak (#951)",
-    "data": "Wed, 21 Oct 2026 01:00:00 +0000",
-    "guid": "e1eb6993c05409f2ab8865423e0f5003",
-    "sponsorzy": "Brak",
-    "kody_rabatowe": "-",
-    "typ_monetyzacji": "Organiczny",
-    "brand_safety_score": 90,
-    "profil_odbiorcy": "Ogolny",
-    "tone_of_voice": "Informacyjny",
-    "streszczenie": "Er macht NBA-Stars fit – hier sind seine Tipps: Arne Greskowiak (#951)",
-    "zaktualizowano": "2026-10-28 01:20:58"
+    "zaktualizowano": "2026-10-28 07:20:45"
   }
 ]
