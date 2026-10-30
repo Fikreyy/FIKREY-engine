@@ -13,7 +13,7 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "345: Masz konto w banku? Wypełnij TEN dokument, zanim będzie za późno",
-    "zaktualizowano": "2026-10-30 00:52:09"
+    "zaktualizowano": "2026-10-30 06:54:13"
   },
   {
     "kraj": "PL",
@@ -29,7 +29,23 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 344: IKZE daje tysiące złotych ulgi. Ale TEN błąd może Cię drogo kosztować",
-    "zaktualizowano": "2026-10-30 01:02:09"
+    "zaktualizowano": "2026-10-30 07:04:12"
+  },
+  {
+    "kraj": "DE",
+    "kategoria": "Marketing",
+    "podcast": "OMR Podcast",
+    "tytul": "OMR Classic: Erich Sixt",
+    "data": "Fri, 30 Oct 2026 02:00:00 +0000",
+    "guid": "35bb902b60fdefdf8abe1a3b4ad75b43",
+    "sponsorzy": "Brak",
+    "kody_rabatowe": "-",
+    "typ_monetyzacji": "Organiczny",
+    "brand_safety_score": 90,
+    "profil_odbiorcy": "Ogolny",
+    "tone_of_voice": "Informacyjny",
+    "streszczenie": "OMR Classic: Erich Sixt",
+    "zaktualizowano": "2026-10-30 07:14:11"
   },
   {
     "kraj": "DE",
@@ -45,22 +61,6 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "Der deutsche Arnold Schwarzenegger: Bodybuilder Urs Kalecinski (#953)",
-    "zaktualizowano": "2026-10-30 01:12:09"
-  },
-  {
-    "kraj": "DE",
-    "kategoria": "Marketing",
-    "podcast": "OMR Podcast",
-    "tytul": "Schlecker abgewickelt, an Galeria gescheitert? Insolvenzverwalter Arndt Geiwitz (#952)",
-    "data": "Sun, 25 Oct 2026 02:00:00 +0000",
-    "guid": "f128bb06f1023b1c1db03f8a61389e70",
-    "sponsorzy": "Brak",
-    "kody_rabatowe": "-",
-    "typ_monetyzacji": "Organiczny",
-    "brand_safety_score": 90,
-    "profil_odbiorcy": "Ogolny",
-    "tone_of_voice": "Informacyjny",
-    "streszczenie": "Schlecker abgewickelt, an Galeria gescheitert? Insolvenzverwalter Arndt Geiwitz (#952)",
-    "zaktualizowano": "2026-10-30 01:22:09"
+    "zaktualizowano": "2026-10-30 07:24:06"
   }
 ]
