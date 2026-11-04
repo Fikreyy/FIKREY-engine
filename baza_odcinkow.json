@@ -13,7 +13,7 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 345: Masz konto w banku? Wypełnij TEN dokument, zanim będzie za późno",
-    "zaktualizowano": "2026-11-04 00:59:33"
+    "zaktualizowano": "2026-11-04 07:09:50"
   },
   {
     "kraj": "PL",
@@ -29,7 +29,23 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 344: IKZE daje tysiące złotych ulgi. Ale TEN błąd może Cię drogo kosztować",
-    "zaktualizowano": "2026-11-04 01:09:25"
+    "zaktualizowano": "2026-11-04 07:19:47"
+  },
+  {
+    "kraj": "DE",
+    "kategoria": "Marketing",
+    "podcast": "OMR Podcast",
+    "tytul": "Vom Verlustbringer zum 9-Mrd-Team: Mercedes-Macher Toto Wolff & Ola Källenius (#955)",
+    "data": "Wed, 04 Nov 2026 02:00:00 +0000",
+    "guid": "3dc0836290865651cb80d02a7d3fb8a1",
+    "sponsorzy": "Brak",
+    "kody_rabatowe": "-",
+    "typ_monetyzacji": "Organiczny",
+    "brand_safety_score": 90,
+    "profil_odbiorcy": "Ogolny",
+    "tone_of_voice": "Informacyjny",
+    "streszczenie": "Vom Verlustbringer zum 9-Mrd-Team: Mercedes-Macher Toto Wolff & Ola Källenius (#955)",
+    "zaktualizowano": "2026-11-04 07:29:44"
   },
   {
     "kraj": "DE",
@@ -45,22 +61,6 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "Mit Bio zum Milliardenumsatz: Alnatura-Gründer Götz Rehn (#954)",
-    "zaktualizowano": "2026-11-04 01:19:27"
-  },
-  {
-    "kraj": "DE",
-    "kategoria": "Marketing",
-    "podcast": "OMR Podcast",
-    "tytul": "OMR Classic: Erich Sixt",
-    "data": "Fri, 30 Oct 2026 02:00:00 +0000",
-    "guid": "35bb902b60fdefdf8abe1a3b4ad75b43",
-    "sponsorzy": "Brak",
-    "kody_rabatowe": "-",
-    "typ_monetyzacji": "Organiczny",
-    "brand_safety_score": 90,
-    "profil_odbiorcy": "Ogolny",
-    "tone_of_voice": "Informacyjny",
-    "streszczenie": "OMR Classic: Erich Sixt",
-    "zaktualizowano": "2026-11-04 01:29:25"
+    "zaktualizowano": "2026-11-04 07:39:38"
   }
 ]
