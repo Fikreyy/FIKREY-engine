@@ -13,7 +13,7 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 347: IKE, IKZE czy OKI? Nie wystarczy wybrać konto. Ważne, CO na nim trzymasz!",
-    "zaktualizowano": "2026-11-08 00:59:09"
+    "zaktualizowano": "2026-11-08 06:59:23"
   },
   {
     "kraj": "PL",
@@ -29,7 +29,23 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 346: Nie zakładaj IKE, zanim nie poznasz tych 3 pułapek!",
-    "zaktualizowano": "2026-11-08 01:09:07"
+    "zaktualizowano": "2026-11-08 07:09:18"
+  },
+  {
+    "kraj": "DE",
+    "kategoria": "Marketing",
+    "podcast": "OMR Podcast",
+    "tytul": "Milliardenbusiness Medizin: Schön-Klinik-CEO Mate Ivančić (956)",
+    "data": "Sun, 08 Nov 2026 02:00:00 +0000",
+    "guid": "900670a0dc52f5ca2e9d660582798c95",
+    "sponsorzy": "Brak",
+    "kody_rabatowe": "-",
+    "typ_monetyzacji": "Organiczny",
+    "brand_safety_score": 90,
+    "profil_odbiorcy": "Ogolny",
+    "tone_of_voice": "Informacyjny",
+    "streszczenie": "Milliardenbusiness Medizin: Schön-Klinik-CEO Mate Ivančić (956)",
+    "zaktualizowano": "2026-11-08 07:19:17"
   },
   {
     "kraj": "DE",
@@ -45,22 +61,6 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "Vom Verlustbringer zum 9-Mrd-Team: Mercedes-Macher Toto Wolff & Ola Källenius (#955)",
-    "zaktualizowano": "2026-11-08 01:19:08"
-  },
-  {
-    "kraj": "DE",
-    "kategoria": "Marketing",
-    "podcast": "OMR Podcast",
-    "tytul": "Mit Bio zum Milliardenumsatz: Alnatura-Gründer Götz Rehn (#954)",
-    "data": "Sun, 01 Nov 2026 02:00:00 +0000",
-    "guid": "3c3cd48d1779ce0ddf3841dfd5a95cee",
-    "sponsorzy": "Brak",
-    "kody_rabatowe": "-",
-    "typ_monetyzacji": "Organiczny",
-    "brand_safety_score": 90,
-    "profil_odbiorcy": "Ogolny",
-    "tone_of_voice": "Informacyjny",
-    "streszczenie": "Mit Bio zum Milliardenumsatz: Alnatura-Gründer Götz Rehn (#954)",
-    "zaktualizowano": "2026-11-08 01:29:03"
+    "zaktualizowano": "2026-11-08 07:29:12"
   }
 ]
