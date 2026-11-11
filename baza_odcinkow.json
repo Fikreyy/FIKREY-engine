@@ -13,7 +13,7 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 348: Stałe oprocentowanie kredytu coraz DROŻSZE. Czy warto za nie dopłacać?",
-    "zaktualizowano": "2026-11-10 19:38:42"
+    "zaktualizowano": "2026-11-11 05:33:25"
   },
   {
     "kraj": "PL",
@@ -29,7 +29,23 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 347: IKE, IKZE czy OKI? Nie wystarczy wybrać konto. Ważne, CO na nim trzymasz!",
-    "zaktualizowano": "2026-11-10 19:48:39"
+    "zaktualizowano": "2026-11-11 05:43:25"
+  },
+  {
+    "kraj": "DE",
+    "kategoria": "Marketing",
+    "podcast": "OMR Podcast",
+    "tytul": "Früher Nike-Manager, heute Jürgen Klopps rechte Hand: Marc Kosicke (#957)",
+    "data": "Wed, 11 Nov 2026 02:00:00 +0000",
+    "guid": "436dfa5086126bbe83a553e2cef56fc9",
+    "sponsorzy": "Brak",
+    "kody_rabatowe": "-",
+    "typ_monetyzacji": "Organiczny",
+    "brand_safety_score": 90,
+    "profil_odbiorcy": "Ogolny",
+    "tone_of_voice": "Informacyjny",
+    "streszczenie": "Früher Nike-Manager, heute Jürgen Klopps rechte Hand: Marc Kosicke (#957)",
+    "zaktualizowano": "2026-11-11 05:53:26"
   },
   {
     "kraj": "DE",
@@ -45,22 +61,6 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "Milliardenbusiness Medizin: Schön-Klinik-CEO Mate Ivančić (#956)",
-    "zaktualizowano": "2026-11-10 19:58:37"
-  },
-  {
-    "kraj": "DE",
-    "kategoria": "Marketing",
-    "podcast": "OMR Podcast",
-    "tytul": "Vom Verlustbringer zum 9-Mrd-Team: Mercedes-Macher Toto Wolff & Ola Källenius (#955)",
-    "data": "Wed, 04 Nov 2026 02:00:00 +0000",
-    "guid": "3dc0836290865651cb80d02a7d3fb8a1",
-    "sponsorzy": "Brak",
-    "kody_rabatowe": "-",
-    "typ_monetyzacji": "Organiczny",
-    "brand_safety_score": 90,
-    "profil_odbiorcy": "Ogolny",
-    "tone_of_voice": "Informacyjny",
-    "streszczenie": "Vom Verlustbringer zum 9-Mrd-Team: Mercedes-Macher Toto Wolff & Ola Källenius (#955)",
-    "zaktualizowano": "2026-11-10 20:08:33"
+    "zaktualizowano": "2026-11-11 06:03:26"
   }
 ]
