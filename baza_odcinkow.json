@@ -13,7 +13,7 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 349: Gdzie założyć IKE lub IKZE w 2026? ❌ TYCH kont unikaj jak ognia [Ranking IKE IKZE 2026]",
-    "zaktualizowano": "2026-11-21 19:02:34"
+    "zaktualizowano": "2026-11-22 05:59:03"
   },
   {
     "kraj": "PL",
@@ -29,7 +29,23 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 348: Stałe oprocentowanie kredytu coraz DROŻSZE. Czy warto za nie dopłacać?",
-    "zaktualizowano": "2026-11-21 19:12:28"
+    "zaktualizowano": "2026-11-22 06:09:01"
+  },
+  {
+    "kraj": "DE",
+    "kategoria": "Marketing",
+    "podcast": "OMR Podcast",
+    "tytul": "Vom Milliardenexit zur Saudi-Show: Das plant Ralf Reichert mit der Esports-Foundation (#960)",
+    "data": "Sun, 22 Nov 2026 02:00:00 +0000",
+    "guid": "525742e915aa54bce578ef2f7d025f85",
+    "sponsorzy": "Brak",
+    "kody_rabatowe": "-",
+    "typ_monetyzacji": "Organiczny",
+    "brand_safety_score": 90,
+    "profil_odbiorcy": "Ogolny",
+    "tone_of_voice": "Informacyjny",
+    "streszczenie": "Vom Milliardenexit zur Saudi-Show: Das plant Ralf Reichert mit der Esports-Foundation (#960)",
+    "zaktualizowano": "2026-11-22 06:19:02"
   },
   {
     "kraj": "DE",
@@ -45,22 +61,6 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "Vom Banker zum Bundesfinanzminister - und zurück: Jörg Kukies (#959)",
-    "zaktualizowano": "2026-11-21 19:22:28"
-  },
-  {
-    "kraj": "DE",
-    "kategoria": "Marketing",
-    "podcast": "OMR Podcast",
-    "tytul": "Anthropic: Billionen-Chance oder Blase? Mit Pip Klöckner (#958)",
-    "data": "Sun, 15 Nov 2026 02:00:00 +0000",
-    "guid": "25ed1f8a1cef65d7d981107b48bac35b",
-    "sponsorzy": "Brak",
-    "kody_rabatowe": "-",
-    "typ_monetyzacji": "Organiczny",
-    "brand_safety_score": 90,
-    "profil_odbiorcy": "Ogolny",
-    "tone_of_voice": "Informacyjny",
-    "streszczenie": "Anthropic: Billionen-Chance oder Blase? Mit Pip Klöckner (#958)",
-    "zaktualizowano": "2026-11-21 19:32:27"
+    "zaktualizowano": "2026-11-22 06:29:00"
   }
 ]
