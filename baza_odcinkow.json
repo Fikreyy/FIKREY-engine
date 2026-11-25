@@ -13,7 +13,7 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 350: Jak kupować, żeby nie żałować? 5 sposobów, żeby nie wyrzucać pieniędzy w błoto",
-    "zaktualizowano": "2026-11-24 22:16:00"
+    "zaktualizowano": "2026-11-25 07:51:33"
   },
   {
     "kraj": "PL",
@@ -29,7 +29,23 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 349: Gdzie założyć IKE lub IKZE w 2026? ❌ TYCH kont unikaj jak ognia [Ranking IKE IKZE 2026]",
-    "zaktualizowano": "2026-11-24 22:25:59"
+    "zaktualizowano": "2026-11-25 08:01:29"
+  },
+  {
+    "kraj": "DE",
+    "kategoria": "Marketing",
+    "podcast": "OMR Podcast",
+    "tytul": "LFDY-Gründer Lorenz Amend: Vom gepfändeten Auto zur Streetwear-Weltmarke (#961)",
+    "data": "Wed, 25 Nov 2026 02:00:00 +0000",
+    "guid": "ee72a32540c8aa66d11601bda6868d2a",
+    "sponsorzy": "Brak",
+    "kody_rabatowe": "-",
+    "typ_monetyzacji": "Organiczny",
+    "brand_safety_score": 90,
+    "profil_odbiorcy": "Ogolny",
+    "tone_of_voice": "Informacyjny",
+    "streszczenie": "LFDY-Gründer Lorenz Amend: Vom gepfändeten Auto zur Streetwear-Weltmarke (#961)",
+    "zaktualizowano": "2026-11-25 08:11:27"
   },
   {
     "kraj": "DE",
@@ -45,22 +61,6 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "Vom Milliardenexit zur Saudi-Show: Das plant Ralf Reichert mit der Esports-Foundation (#960)",
-    "zaktualizowano": "2026-11-24 22:35:59"
-  },
-  {
-    "kraj": "DE",
-    "kategoria": "Marketing",
-    "podcast": "OMR Podcast",
-    "tytul": "Vom Banker zum Bundesfinanzminister - und zurück: Jörg Kukies (#959)",
-    "data": "Wed, 18 Nov 2026 02:00:00 +0000",
-    "guid": "9253a93eaa2beafc7b6f3f88632e9792",
-    "sponsorzy": "Brak",
-    "kody_rabatowe": "-",
-    "typ_monetyzacji": "Organiczny",
-    "brand_safety_score": 90,
-    "profil_odbiorcy": "Ogolny",
-    "tone_of_voice": "Informacyjny",
-    "streszczenie": "Vom Banker zum Bundesfinanzminister - und zurück: Jörg Kukies (#959)",
-    "zaktualizowano": "2026-11-24 22:45:57"
+    "zaktualizowano": "2026-11-25 08:21:24"
   }
 ]
