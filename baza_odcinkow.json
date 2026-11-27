@@ -13,7 +13,7 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 350: Jak kupować, żeby nie żałować? 5 sposobów, żeby nie wyrzucać pieniędzy w błoto",
-    "zaktualizowano": "2026-11-26 21:18:34"
+    "zaktualizowano": "2026-11-27 07:40:04"
   },
   {
     "kraj": "PL",
@@ -29,7 +29,23 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "FBO 349: Gdzie założyć IKE lub IKZE w 2026? ❌ TYCH kont unikaj jak ognia [Ranking IKE IKZE 2026]",
-    "zaktualizowano": "2026-11-26 21:28:31"
+    "zaktualizowano": "2026-11-27 07:49:55"
+  },
+  {
+    "kraj": "DE",
+    "kategoria": "Marketing",
+    "podcast": "OMR Podcast",
+    "tytul": "OMR Classic: Alois Kobler (XXXLutz)",
+    "data": "Fri, 27 Nov 2026 02:00:00 +0000",
+    "guid": "2382897fd84fe5f3b028a02bc634035b",
+    "sponsorzy": "Brak",
+    "kody_rabatowe": "-",
+    "typ_monetyzacji": "Organiczny",
+    "brand_safety_score": 90,
+    "profil_odbiorcy": "Ogolny",
+    "tone_of_voice": "Informacyjny",
+    "streszczenie": "OMR Classic: Alois Kobler (XXXLutz)",
+    "zaktualizowano": "2026-11-27 07:59:48"
   },
   {
     "kraj": "DE",
@@ -45,22 +61,6 @@
     "profil_odbiorcy": "Ogolny",
     "tone_of_voice": "Informacyjny",
     "streszczenie": "LFDY-Gründer Lorenz Amend: Vom gepfändeten Auto zur Streetwear-Weltmarke (#961)",
-    "zaktualizowano": "2026-11-26 21:38:31"
-  },
-  {
-    "kraj": "DE",
-    "kategoria": "Marketing",
-    "podcast": "OMR Podcast",
-    "tytul": "Vom Milliardenexit zur Saudi-Show: Das plant Ralf Reichert mit der Esports-Foundation (#960)",
-    "data": "Sun, 22 Nov 2026 02:00:00 +0000",
-    "guid": "525742e915aa54bce578ef2f7d025f85",
-    "sponsorzy": "Brak",
-    "kody_rabatowe": "-",
-    "typ_monetyzacji": "Organiczny",
-    "brand_safety_score": 90,
-    "profil_odbiorcy": "Ogolny",
-    "tone_of_voice": "Informacyjny",
-    "streszczenie": "Vom Milliardenexit zur Saudi-Show: Das plant Ralf Reichert mit der Esports-Foundation (#960)",
-    "zaktualizowano": "2026-11-26 21:48:30"
+    "zaktualizowano": "2026-11-27 08:09:46"
   }
 ]
